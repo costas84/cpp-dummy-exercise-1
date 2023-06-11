@@ -1,3 +1,22 @@
+/******************************************************************************
+
+Exercise: create a class with multiple constructors.
+
+Write a program that iterates a class named dummy that:
+-has an int variable as private member named x
+-has two constructors
+  -one without arguments that inits the var x to 0
+  -one with argument the value that the var x will take
+-has accessors
+-has a destructor
+   -with a simple message informs that destructs the object with the value of var x
+- a main function that
+- declares two dummy objects
+ -one inits var x to 10 (via constructor)
+ -one that doesnt init var x
+*******************************************************************************/
+
+
 #include <iostream>
 using namespace std;
 
